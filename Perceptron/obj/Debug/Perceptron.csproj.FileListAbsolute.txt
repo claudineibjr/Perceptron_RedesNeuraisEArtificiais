@@ -1,0 +1,8 @@
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\bin\Debug\Perceptron.exe.config
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\bin\Debug\Perceptron.exe
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\bin\Debug\Perceptron.pdb
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.csprojResolveAssemblyReference.cache
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.Properties.Resources.resources
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.csproj.GenerateResource.Cache
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.exe
+c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.pdb
