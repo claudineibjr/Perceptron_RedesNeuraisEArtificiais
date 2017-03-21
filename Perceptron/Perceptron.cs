@@ -1,4 +1,7 @@
 ﻿
+using System;
+using System.Windows.Forms;
+
 namespace Perceptron{
     class Perceptron{
 
@@ -32,13 +35,22 @@ namespace Perceptron{
         public void treinar(int [,] padroes, int [] dj, float taxaDeAprendizado){
             bool temErro = false;
 
+            int[] entradas = { 0, 0 };
+            for (int iCount = 0; iCount < pesos.Length; iCount ++)
+                MessageBox.Show("Somatorio: " + somatorio(padroes[iCount, 0]));
+
             //w(t+1) = wi(t) + n *e*xi(t)
 
             //TODO: Atualizar pesos
 
             for (int i = 0; i < pesos.Length; i++){
-                
+
+                for (int j = 0; j < padroes.Rank; j++)
+                {
+                    MessageBox.Show(pesos[i] + " + " + taxaDeAprendizado + " * e * " + padroes[i, j]);
+                }
                 //double _pesoAuxiliar = 
+                Console.WriteLine("Eu: " + i);
 
             }
 

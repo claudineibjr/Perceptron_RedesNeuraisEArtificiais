@@ -6,3 +6,11 @@ c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\o
 c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.csproj.GenerateResource.Cache
 c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.exe
 c:\users\claudinei\documents\visual studio 2017\Projects\Perceptron\Perceptron\obj\Debug\Perceptron.pdb
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.exe.config
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.exe
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.pdb
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.csprojResolveAssemblyReference.cache
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.Properties.Resources.resources
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.csproj.GenerateResource.Cache
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.exe
+C:\Users\Claudinei\Google Drive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.pdb
