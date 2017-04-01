@@ -25,18 +25,9 @@ namespace Perceptron
                             1
                         };
 
-            float taxaDeAprendizado = 0.2f;
+            double taxaDeAprendizado = 0.2;
 
             p.treinar(padroes, dj, taxaDeAprendizado);
-
-            int[] ent1 = { 0, 0 };
-            int[] ent2 = { 0, 1 };
-            int[] ent3 = { 1, 0 };
-            int[] ent4 = { 1, 1 };
-            Console.WriteLine("0, 0 = " + p.Y(ent1));
-            Console.WriteLine("0, 1 = " + p.Y(ent2));
-            Console.WriteLine("1, 0 = " + p.Y(ent3));
-            Console.WriteLine("1, 1 = " + p.Y(ent4));
         }
     }
 }
