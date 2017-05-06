@@ -1,0 +1,8 @@
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.exe.config
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.exe
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\bin\Debug\Perceptron.pdb
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron_.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.Properties.Resources.resources
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron_.csproj.GenerateResource.Cache
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.exe
+D:\GoogleDrive\Ciência da computação\7º Semestre\Redes neurais e artificiais\Perceptron\Perceptron\obj\Debug\Perceptron.pdb

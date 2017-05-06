@@ -7,19 +7,27 @@ namespace Perceptron{
 
         double[] pesos;
 
-        public Perceptron(int _NumEntradas){
+        public Perceptron(int _NumEntradas, int _NumPadroes){
+
+            Random random = new Random();
+
             pesos = new double[_NumEntradas + 1];
-            pesos[0] = 0.3;
-            pesos[1] = -0.5;
-            pesos[2] = 0.2;
+            pesos[0] = random.NextDouble() * (random.Next(0, 1) == 0 ? -1 : 1);
+            pesos[1] = random.NextDouble() * (random.Next(0, 1) == 0 ? -1 : 1);
+            pesos[2] = random.NextDouble() * (random.Next(0, 1) == 0 ? -1 : 1);
             //TODO: Criar pesos aleatórios entre -1 e 1
         }
 
         public string exibePesos()
         {
-            return "w0 =" + pesos[0] + "\n" +
-                    "w1 =" + pesos[1] + "\n" +
-                    "w2 =" + pesos[2] + "\n";
+            string meuTexto = "";
+
+            for (int iCount = 0; iCount < pesos.Length; iCount++)
+            {
+                meuTexto += "w" + iCount + " = " + pesos[iCount] + "\n";
+            }
+
+            return meuTexto;
         }
 
         public string exibeMatriz(int [,] padroes, int [] yDesejado, int [] y, int [] erro)
@@ -70,21 +78,8 @@ namespace Perceptron{
             return tabela;
         }
 
-        public void treinar(int [,] padroes, int [] yDesejado, double taxaDeAprendizado){
-            //w(t+1) = wi(t) + n *e*xi(t)
-
-            //TODO: Atualizar pesos
-
-            /*for (int i = 0; i < pesos.Length; i++){
-
-                for (int j = 0; j < padroes.Rank; j++)
-                {
-                    //MessageBox.Show(pesos[i] + " + " + taxaDeAprendizado + " * e * " + padroes[i, j]);
-                }
-                //double _pesoAuxiliar = 
-                Console.WriteLine("Eu: " + i);
-
-            }*/
+        public void treinar(int [,] padroes, int [] yDesejado, double taxaDeAprendizado, string tituloTreinamento){
+            Console.Write("\n\n\n==================================================\n" + tituloTreinamento +"\n==================================================\n");
 
             bool temErro = true;
             int numIteracoes = 0;
@@ -103,13 +98,14 @@ namespace Perceptron{
 
                 numIteracoes++;
 
-                //DBG MessageBox.Show("Iteração " + numIteracoes + "\nPesos\n\n" + exibePesos());
+                if (numIteracoes == 1)
+                    Console.Write("\n=========================\nPesos iniciais:\n" + exibePesos());
 
                 // Percorre todas as linhas do AND
                 for (int linha = 0; linha < numLinhas; linha++)
                 {
                     somatorio[linha] = 0;
-                    
+
                     // Percorre todas as colunas de x0 até xN de uma linha
                     for (int coluna = 0; coluna <= numColunas; coluna++)
                     {
@@ -130,11 +126,8 @@ namespace Perceptron{
                         {
                             pesos[iCount] = pesos[iCount] + taxaDeAprendizado * erro[linha] * (iCount == 0 ? 1 : padroes[linha, iCount - 1]);
                         }
-                        //DBG MessageBox.Show("Iteração: " + numIteracoes + "\nLinha: " + linha + "\nNovos pesos\n\n" + exibePesos());
 
                     }
-
-                    //DBG MessageBox.Show("i: " + linha + "\n\n" + somatorio[linha] + "\nErro: " + erro[linha]);
 
                 }
 
@@ -146,7 +139,7 @@ namespace Perceptron{
 
             }
 
-            MessageBox.Show("Sem erro com " + numIteracoes + " iterações\n\nTabela:\n" + exibeMatriz(padroes, yDesejado, y, erro) + "\n\nPesos:\n" + exibePesos());
+            Console.Write("\n=========================\nSem erro com " + numIteracoes + " iterações\n\nTabela:\n" + exibeMatriz(padroes, yDesejado, y, erro) + "\n\nPesos:\n" + exibePesos());
             
 
         }
